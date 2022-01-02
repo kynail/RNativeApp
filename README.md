@@ -28,4 +28,4 @@ Vous pouvez à présent utiliser l'application !
 
 ![image](https://user-images.githubusercontent.com/72348896/147888030-355a828e-94ae-4353-8e91-5822064c8c79.png)
 
-Retrouvez la version déployée sur Expo : exp://exp.host/@quentflo/rnativetodo
+Retrouvez la version déployée sur Expo : https://expo.dev/@quentflo/rnativetodo
