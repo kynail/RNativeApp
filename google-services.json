@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700188778111",
+    "project_id": "rnative-82101",
+    "storage_bucket": "rnative-82101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700188778111:android:a19d5e11a917bffe83a94a",
+        "android_client_info": {
+          "package_name": "com.epitech.Rnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700188778111-8911vc54lhvqqjqnlb1o32jt09hk0t9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3M62KhqmJl4np7_v2OU5hUrwavkPScfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700188778111-8911vc54lhvqqjqnlb1o32jt09hk0t9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
