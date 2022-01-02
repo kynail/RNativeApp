@@ -17,6 +17,9 @@ Puis, executez la commande ``npm start``
 
 Une page s'ouvrira alors dans votre navigateur web
 
+![image](https://user-images.githubusercontent.com/72348896/147888114-0091a0d2-247d-499e-95f9-a87c9843ae6d.png)
+
+
 Patientez quelques secondes...
 
 ![image](https://user-images.githubusercontent.com/72348896/147887963-06de061d-00ef-44a8-842c-7acc440088f8.png)
