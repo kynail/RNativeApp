@@ -1,10 +1,11 @@
 import { Camera } from 'expo-camera';
 import React, { useState, useEffect } from 'react';
 import {
-  View, StyleSheet, Text, TouchableOpacity,
+  View, StyleSheet, Text, TouchableOpacity, Image,
 } from 'react-native';
 import { useSelector } from 'react-redux';
 import styled from 'styled-components';
+import image from '../assets/profile.png';
 
 const styles = StyleSheet.create({
   container: {
@@ -25,6 +26,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  profileImage: {
+    width: 200,
+    height: 200,
+    borderRadius: 350 / 4,
+    overflow: 'hidden',
   },
 });
 
@@ -51,6 +58,7 @@ export default function ShowProfile() {
   return (
     <View style={styles.container}>
       <EmptyText>{email}</EmptyText>
+      <Image source={image} style={styles.profileImage} />
       <Camera style={styles.camera} type={type} flex={1}>
         <View style={styles.buttonContainer}>
           <TouchableOpacity

@@ -2,7 +2,6 @@ import React from 'react';
 import { View } from 'react-native';
 import { Entypo, MaterialIcons } from '@expo/vector-icons';
 import PropTypes from 'prop-types';
-
 import styled from 'styled-components';
 
 export default function TodoList({ item, deleteItem }) {
