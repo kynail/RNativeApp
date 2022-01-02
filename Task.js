@@ -33,7 +33,7 @@ export default function Task({ navigation }) {
       </View>
       <View>
         <Button title="Profil" onPress={() => navigation.navigate('Profile')} />
-        <Button title="Deconnexion" onPress={() => navigation.navigate('Login')} />
+        <Button title="Deconnexion" onPress={() => navigation.replace('Login')} />
         <FlatList
           data={data}
           ListHeaderComponent={React.memo(() => (
@@ -66,5 +66,6 @@ const ComponentContainer = styled.View`
 Task.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func.isRequired,
+    replace: PropTypes.func.isRequired,
   }).isRequired,
 };

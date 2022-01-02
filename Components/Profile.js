@@ -1,6 +1,8 @@
 import { Camera } from 'expo-camera';
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import {
+  View, StyleSheet, Text, TouchableOpacity,
+} from 'react-native';
 import { useSelector } from 'react-redux';
 import styled from 'styled-components';
 
@@ -14,6 +16,15 @@ const styles = StyleSheet.create({
   camera: {
     width: '100%',
     height: '100%',
+  },
+  text: {
+    color: 'white',
+    fontSize: 28,
+  },
+  buttonContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
 

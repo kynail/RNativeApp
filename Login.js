@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { Button, TextInput, View, StyleSheet, StatusBar } from 'react-native';
+import {
+  Button, TextInput, View, StyleSheet,
+} from 'react-native';
 import PropTypes from 'prop-types';
 import { storeEmail } from './redux/UserSlice';
 
@@ -37,7 +39,7 @@ export default function Login({ navigation }) {
 
   const onLogin = () => {
     if (validateEmail(userName) && password.length >= 6) {
-      navigation.navigate('Home');
+      navigation.replace('Home');
       dispatch(storeEmail(userName));
     }
     // Alert.alert('Credentials', `${userName} + ${password}`);
@@ -71,5 +73,6 @@ export default function Login({ navigation }) {
 Login.propTypes = {
   navigation: PropTypes.shape({
     navigate: PropTypes.func.isRequired,
+    replace: PropTypes.func.isRequired,
   }).isRequired,
 };

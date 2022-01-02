@@ -15,11 +15,11 @@ export default function App() {
     <Provider store={store}>
       <NavigationContainer>
         <Stack.Navigator>
+          <Stack.Screen name="Login" component={Login} />
           <Stack.Screen
-            name="Login"
-            component={Login}
+            name="Home"
+            component={Task}
           />
-          <Stack.Screen name="Home" component={Task} />
           <Stack.Screen name="Profile" component={ShowProfile} />
         </Stack.Navigator>
       </NavigationContainer>
