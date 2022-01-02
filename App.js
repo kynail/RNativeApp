@@ -154,6 +154,8 @@ export default function App() {
       />
 
       <Button title="Login" style={styles.input} onPress={() => onLogin()} />
+
+      <Task />
     </View>
   );
 }
