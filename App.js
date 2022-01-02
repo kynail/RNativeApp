@@ -7,11 +7,13 @@ import {
   StatusBar,
   FlatList,
 } from 'react-native';
+import { Provider } from 'react-redux';
 import styled from 'styled-components';
 import AddInput from './Components/AddInput';
 import TodoList from './Components/TodoList';
 import Empty from './Components/Empty';
 import Header from './Components/Header';
+import store from './redux/store';
 
 const styles = StyleSheet.create({
   container: {
@@ -91,30 +93,32 @@ function Task() {
   };
 
   return (
-    <ComponentContainer>
-      <View>
-        <StatusBar barStyle="light-content" backgroundColor="midnightblue" />
-      </View>
-
-      <View>
-        <FlatList
-          data={data}
-          ListHeaderComponent={React.memo(() => (
-            <Header />
-          ))}
-          ListEmptyComponent={React.memo(() => (
-            <Empty />
-          ))}
-          keyExtractor={(item) => item.key}
-          renderItem={({ item }) => (
-            <TodoList item={item} deleteItem={deleteItem} />
-          )}
-        />
+    <Provider store={store}>
+      <ComponentContainer>
         <View>
-          <AddInput submitHandler={submitHandler} />
+          <StatusBar barStyle="light-content" backgroundColor="midnightblue" />
         </View>
-      </View>
-    </ComponentContainer>
+
+        <View>
+          <FlatList
+            data={data}
+            ListHeaderComponent={React.memo(() => (
+              <Header />
+            ))}
+            ListEmptyComponent={React.memo(() => (
+              <Empty />
+            ))}
+            keyExtractor={(item) => item.key}
+            renderItem={({ item }) => (
+              <TodoList item={item} deleteItem={deleteItem} />
+            )}
+          />
+          <View>
+            <AddInput submitHandler={submitHandler} />
+          </View>
+        </View>
+      </ComponentContainer>
+    </Provider>
   );
 }
 
