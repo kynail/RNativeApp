@@ -15,7 +15,7 @@ Assurez vous d'avoir préalablement installé Expo Go sur votre smartphone : htt
 Executez la commande ``npm i`` pour pouvoir récupérer et installer les dépendances nécessaires au bon fonctionnement de l'application.
 Puis, executez la commande ``npm start``
 
-Une page s'ouvrira alors dans votre navigateur web
+Une page s'ouvrira alors dans votre navigateur web. Vous devrez alors scanner le QR code à l'aide de l'appareil photo de votre smartphone en utilisant Expo Go
 
 ![image](https://user-images.githubusercontent.com/72348896/147888114-0091a0d2-247d-499e-95f9-a87c9843ae6d.png)
 
