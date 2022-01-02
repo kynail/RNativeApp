@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { View, StatusBar, FlatList, Button } from 'react-native';
+import {
+  View, StatusBar, FlatList, Button,
+} from 'react-native';
 import AddInput from './Components/AddInput';
 import TodoList from './Components/TodoList';
 import Empty from './Components/Empty';
@@ -31,6 +33,7 @@ export default function Task({ navigation }) {
       </View>
       <View>
         <Button title="Profil" onPress={() => navigation.navigate('Profile')} />
+        <Button title="Deconnexion" onPress={() => navigation.navigate('Login')} />
         <FlatList
           data={data}
           ListHeaderComponent={React.memo(() => (

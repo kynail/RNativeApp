@@ -49,6 +49,7 @@ export default function Login({ navigation }) {
         value={userName}
         onChangeText={(username) => setUserName(username)}
         placeholder="Email"
+        placeholderTextColor="white"
         style={styles.input}
       />
       <TextInput
@@ -56,6 +57,7 @@ export default function Login({ navigation }) {
         onChangeText={(passwordInput) => setPassword(passwordInput)}
         placeholder="Password"
         secureTextEntry
+        placeholderTextColor="white"
         style={styles.input}
       />
 
