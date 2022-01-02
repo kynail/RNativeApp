@@ -25,7 +25,8 @@ export default function TodoList({ item, deleteItem }) {
 }
 
 TodoList.propTypes = {
-  item: PropTypes.string.isRequired,
+  item: PropTypes.shape({ value: PropTypes.string, key: PropTypes.string })
+    .isRequired,
   deleteItem: PropTypes.func.isRequired,
 };
 

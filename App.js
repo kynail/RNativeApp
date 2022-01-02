@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import store from './redux/Store';
 import Login from './Login';
 import Task from './Task';
+import ShowProfile from './Components/Profile';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
             component={Login}
           />
           <Stack.Screen name="Home" component={Task} />
+          <Stack.Screen name="Profile" component={ShowProfile} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>

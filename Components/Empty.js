@@ -5,9 +5,7 @@ import image from '../assets/images/emptytodo-removebg-preview.png';
 export default function Empty() {
   return (
     <ComponentContainer>
-      <EmptyImage
-        source={image}
-      />
+      <EmptyImage source={image} />
       <EmptyText>Add To-Do.</EmptyText>
     </ComponentContainer>
   );
