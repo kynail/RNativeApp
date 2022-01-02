@@ -12,5 +12,4 @@ export const cardSlice = createSlice({
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { addCard } = cardSlice.actions;
