@@ -1,6 +1,6 @@
 # RNativeApp
 
-Application mobile en react native  -> ToDoList
+Application mobile en react native permettant de rédiger une liste de tâches
 
 ## Pour commencer
 
