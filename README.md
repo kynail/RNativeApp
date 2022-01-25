@@ -26,8 +26,9 @@ Patientez quelques secondes...
 
 Vous pouvez à présent utiliser l'application !
 
-![image](https://user-images.githubusercontent.com/72348896/147888030-355a828e-94ae-4353-8e91-5822064c8c79.png)
+![272251770_513523803330388_2995249360510430624_n](https://user-images.githubusercontent.com/72348896/150975962-af8907a8-34d2-41be-a26b-77765d3bbcd4.jpg)
 
-![272080483_257145426495188_3857569604307240580_n](https://user-images.githubusercontent.com/72348896/150974278-71b8b763-b608-487f-bb66-b9a187f6b037.jpg)
+
+![272080483_257145426495188_3857569604307240580_n](https://user-images.githubusercontent.com/72348896/150975055-264799e8-c52d-4c7b-a20d-cc0e97b5cf86.jpg)
 
 Retrouvez la version déployée sur Expo : https://expo.dev/@quentflo/rnativetodo
