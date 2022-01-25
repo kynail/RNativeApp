@@ -28,4 +28,6 @@ Vous pouvez à présent utiliser l'application !
 
 ![image](https://user-images.githubusercontent.com/72348896/147888030-355a828e-94ae-4353-8e91-5822064c8c79.png)
 
+![image](https://user-images.githubusercontent.com/72348896/150973906-c3367783-a09c-49f1-9de6-1f505dc472c3.png)
+
 Retrouvez la version déployée sur Expo : https://expo.dev/@quentflo/rnativetodo
